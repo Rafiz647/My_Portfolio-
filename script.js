@@ -1,3 +1,4 @@
+  // hero section's sliding text
   const typingElement = document.querySelector(".typing");
   const roles = ["Web Developer", "Competitive Programmer ", "UI/UX Designer"];
   let roleIndex = 0;
@@ -27,3 +28,24 @@
   document.addEventListener("DOMContentLoaded", () => {
     setTimeout(type, 1000);
   });
+
+
+  //contact me
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby0Z4aA72ffvTDCgCYQCErdMT-o8jMsr4AOU1vmWVnQHSKpxkPPPDwHfV7WOorcL3nk/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message Sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+  
+
