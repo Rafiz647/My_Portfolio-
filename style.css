@@ -41,7 +41,7 @@ body {
     background-size: cover;
 }
 html {
-  scroll-padding-top: 4.7rem; /* Adjust to your navbar height */
+  scroll-padding-top: 4.7rem; 
   scroll-behavior: smooth;
 
 }
@@ -436,9 +436,9 @@ header {
 
 /* hobbies */
 .Hobbies {
-   padding: 5rem 3rem;
-   padding-bottom: 2rem;
+ 
   text-align: center;
+  margin-top: -3rem;
 }
 
 .Hobbies_container .cards {
@@ -501,7 +501,8 @@ header {
 /* Projects */
 .Projects_container {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: -10rem;
+   
 }
 
 .gallery {
@@ -752,7 +753,7 @@ footer {
         width: 18rem;
         flex-direction: column;
         display: none;
-        /* will do it with js*/
+        /*js use kore korbo*/
     }
 
     .nav_menu li{
