@@ -295,7 +295,7 @@ header {
     color: var(--primary);
 }
 .about_container .about-text p {
-    size: 2.5rem;
+    font-size: 2.5rem;
     margin-bottom: 0.8rem;
 }
 
