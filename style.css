@@ -284,8 +284,8 @@ header {
     border: 5px solid var(--primary);
     border-radius: 50%;
     overflow: hidden;
-    max-width: 30rem;
-    max-height: 25rem;
+    max-width: 25rem;
+    max-height: 21rem;
     margin-right: 2rem;
     position: relative;
     margin-bottom: 2rem;
