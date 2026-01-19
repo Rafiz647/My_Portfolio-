@@ -232,7 +232,7 @@ header {
   opacity: 0;
   transform: translateX(-50px);
   animation: slideInLeft 1s ease-out forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
 }
 
 @keyframes slideInLeft {
@@ -304,7 +304,11 @@ header {
 
 /* Education */
 .education {
+<<<<<<< HEAD
   padding: 2rem 3rem;
+=======
+  padding: 2rem 2rem;
+>>>>>>> f0d69d9 (small changes)
   text-align: center;
 }
 
@@ -445,7 +449,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
 }
 
 .Hobbies_container .cards .card {
@@ -692,7 +696,7 @@ footer {
 }
 
 
-/*------ media queries tab ------*/
+/*------------------------------------- media queries tab -------------------------------------------------*/
 @media screen and (max-width: 1024px){
      .container {
         width: var(--container-width-md) !important;
@@ -886,7 +890,7 @@ footer {
     }
 
 }
-/* for mobile */
+/*-------------------------------------------------- for mobile----------------------------------------------- */
 @media screen and (max-width:600px) {
     .container {
         width: var(--container-width-sm) !important;
