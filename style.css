@@ -445,7 +445,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
 }
 
 .Hobbies_container .cards .card {
@@ -500,7 +500,7 @@ header {
 /* Projects */
 .Projects_container {
     text-align: center;
-    margin-top: -10rem;
+    margin-top: -4rem;
    
 }
 
