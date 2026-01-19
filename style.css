@@ -288,14 +288,13 @@ header {
     max-height: 25rem;
     margin-right: 2rem;
     position: relative;
-    align-items: center;
     margin-bottom: 2rem;
 }
 .about_container .about-text .text span {
     color: var(--primary);
 }
 .about_container .about-text p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-bottom: 0.8rem;
 }
 
