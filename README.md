@@ -55,19 +55,19 @@ CSE Student, IIUC
 
 1.Open Terminal / Git Bash
 
-2.Go to your project folder
-cd path/to/folder
+2.Go to your project folder->
+(cd path/to/folder)
 
-3.Clone the HTML portfolio repository
-git clone <repository-url>
+3.Clone the HTML portfolio repository ->
+(git clone <https://github.com/Rafiz647/SD-project>)
 
-4.Enter the project folder
-cd portfolio-website
+4.Enter the project folder ->
+(cd portfolio-website)
 
-5.Check files (HTML, CSS, JS)
+5.Check files (HTML, CSS, JS)->
 ls
 
-6.Verify Git connection
+6.Verify Git connection->
 git status
 
 
